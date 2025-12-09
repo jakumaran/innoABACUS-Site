@@ -46,6 +46,20 @@ footer{margin:36px 0 60px;color:var(--muted);font-size:14px;text-align:center}
 .whatsapp-circle{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:white;box-shadow:0 8px 20px rgba(0,0,0,0.12);font-size:22px;border:0}
 .whatsapp-bar{position:fixed;right:18px;bottom:18px;z-index:999;background:linear-gradient(90deg,var(--accent2),var(--accent));color:white;padding:12px 16px;border-radius:14px;display:flex;align-items:center;gap:10px;box-shadow:0 8px 20px rgba(0,0,0,0.12)}
 .whatsapp-bar .txt{font-weight:700}
+.header-logo {
+  height: 100%;
+  max-height: 60px;     /* Auto scale limit for desktop */
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .header-logo {
+    max-height: 45px;   /* Scales smaller on mobile */
+  }
+}
+
 
 @media (max-width:920px){
   .hero{grid-template-columns:1fr}

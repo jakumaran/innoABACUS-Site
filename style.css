@@ -31,6 +31,14 @@ h1{font-size:28px;margin:0 0 8px}
 .small{font-size:14px;color:var(--muted)}
 footer{margin:36px 0 60px;color:var(--muted);font-size:14px;text-align:center}
 
+.header-logo {
+  height: auto;
+  width: auto;
+  max-height: 90px;       /* Increase or reduce as you wish */
+  object-fit: contain;
+  display: block;
+}
+
 /* Gallery rounded cards */
 .gallery-card{border-radius:16px;height:180px;display:flex;align-items:center;justify-content:center;background:#f8fafc;color:var(--muted);font-size:14px;overflow:hidden}
 

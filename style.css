@@ -34,7 +34,7 @@ footer{margin:36px 0 60px;color:var(--muted);font-size:14px;text-align:center}
 .header-logo {
   height: auto;
   width: auto;
-  max-height: 90px;       /* Increase or reduce as you wish */
+  max-height: 20px;       /* Increase or reduce as you wish */
   object-fit: contain;
   display: block;
 }
